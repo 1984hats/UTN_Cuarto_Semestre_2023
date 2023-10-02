@@ -29,8 +29,8 @@ app.post("/create_preference", (req, res) => {
 			}
 		],
 		back_urls: {
-			"success": "http://localhost:8080/",
-			"failure": "http://localhost:8080/",
+			"success": "http://localhost:5500/",
+			"failure": "http://localhost:5500/",
 			"pending": "",
 		},
 		auto_return: "approved",
